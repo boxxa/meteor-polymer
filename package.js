@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   	api.use(['templating'], 'client');
   	api.use(['underscore'], ['client', 'server']);
 	api.versionsFrom('METEOR@0.9.0');
-	api.addFiles('boxxa/polymer.js', 'server');
+	api.addFiles('boxxa:polymer.js', 'server');
 	api.addFiles('import.html', 'client');
 });
 
