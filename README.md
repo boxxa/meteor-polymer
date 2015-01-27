@@ -1,19 +1,22 @@
 #Meteor-Polymer
+The version [ecwyne:polymer](http://github.com/ecwyne/meteor-polymer) hasn't been updated so forked it and am keeping the version updated as Polymer updates theirs so I would suggest rolling your own bower and package version for anything in production as this will stay current with Polymer. I am keeping this package version consistent with polymer. See below to install Polymer versions specific to your needs.
 
-Add the magic of web components and [Polymer](http://polymer-project.org) to [Meteor](http://meteor.com)!
-
-##About
-###This package does not include polymer-elements!!! Follow directions below to include all polymer elements.
-This package adds the base functionality of Polymer. There are no elements included in this project. This was done so that end users have the option to use their own blend of elements without the overhead of also providing polymer elements. If you want to include [core-elements and paper-elements](http://www.polymer-project.org/docs/elements/) simply run:
-
-```bash
-meteor add ecwyne:polymer-elements
-```
-
-This will add the [ecwyne:polymer-elements](http://github.com/ecwyne/meteor-polymer-elements) package.
+This adds [Polymer](http://polymer-project.org) to [Meteor](http://meteor.com)! Make sure you create your public, client, and server folders or code pushes and reloads will be SLOOWWWWWWW.
 
 ##How to Install
 
 ```bash
-meteor add ecwyne:polymer
+meteor add boxxa:polymer
 ```
+
+This package version will remain consistent with Polymer so if you want to install this release in the future, run:
+```bash
+meteor add boxxa:polymer@=0.5.4
+```
+###Add elements
+To add meteor elements, run the command below. 
+```bash
+meteor add boxxa:polymer-elements
+```
+
+This will add the [boxxa:polymer-elements](http://github.com/boxxa/meteor-polymer-elements) package.
