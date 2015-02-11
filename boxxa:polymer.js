@@ -23,5 +23,7 @@ _.forEach(bowerCommands, function (command) {
 	if (!_.contains(localCache, 'polymer#0.5.4')){
 		console.log('installing polymer into public directory...');
 		Bower.install(['polymer#0.5.4'], {save: true}, {directory: dir});
-	}
+	} else {
+        console.log("Polymer exist already. To reinitialize, remove bower_components from your public/ folder");
+    }
 }
