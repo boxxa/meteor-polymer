@@ -1,7 +1,7 @@
 Package.describe({
   name: 'boxxa:polymer',
-  version: '0.5.5',
-  summary: 'Adds Polymer 0.5.5 Core to Meteor',
+  version: '1.0.0',
+  summary: 'Adds Polymer 1.0.0 Core to Meteor',
   git: 'https://github.com/boxxa/meteor-polymer.git',
   documentation: 'README.md'
 });
