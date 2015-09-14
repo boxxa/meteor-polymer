@@ -1,7 +1,9 @@
 #Meteor-Polymer
 Updated to Polymer 1.0.0
 
-The version [ecwyne:polymer](http://github.com/ecwyne/meteor-polymer) hasn't been updated so forked it and am keeping the version updated as Polymer updates theirs so I would suggest rolling your own bower and package version for anything in production as this will stay current with Polymer. I am keeping this package version consistent with polymer. See below to install Polymer versions specific to your needs.
+###Warning: This package may not be working. I suggest not relying on this currently.
+
+I am keeping the version updated as Polymer updates theirs so I would suggest rolling your own bower and package version for anything in production as this will stay current with Polymer. I am keeping this package version consistent with polymer. See below to install Polymer versions specific to your needs.
 
 This adds [Polymer](http://polymer-project.org) to [Meteor](http://meteor.com)! Make sure you create your public, client, and server folders or code pushes and reloads will be SLOOWWWWWWW.
 
